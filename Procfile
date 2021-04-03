@@ -1,0 +1,1 @@
+web: python manage.py collectstatic --no-input; gunicorn personal_portfolio.wsgi --log-file - --log-level debug
